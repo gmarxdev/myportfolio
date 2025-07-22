@@ -22,15 +22,16 @@ section {
 }
 
 .about-h1 {
-    color: #fdc500;
+    color: #c69b00;
     font-size: 6rem;
     font: bold ;
 }
 
 .about-h2 {
     color: #21a400;
-    font-size: 4rem;
+    font-size: 5rem;
     font: bold ;
+    text-shadow: 2px 4px 6px #0e4300;
 }
 
 .bg-icon {
@@ -39,6 +40,10 @@ section {
 
 .about-profile {
     box-shadow: 0 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.bg-profile {
+    background-color: #0a1a3f;
 }
 
 section.in-view {
@@ -64,12 +69,6 @@ section.in-view {
 }
 
 .nav-link:hover {
-    color: #fdc500;
-    border-bottom: 2px solid #fdc500;
-    transform: translateY(-2px);
-}
-
-.nav-link:active {
     color: #fdc500;
     border-bottom: 2px solid #fdc500;
     transform: translateY(-2px);
