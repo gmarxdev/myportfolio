@@ -15,15 +15,21 @@ section {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 40, 60, 0.85)),
             url('') no-repeat center center/cover;
     min-height: 100vh;
-    padding: 80px 20px;
+    padding: 80px 0;
     opacity: 0;
     transform: translateY(50px);
     transition: all 0.6s ease-in-out;
 }
 
 .about-h1 {
-    color: whitesmoke;
+    color: #fdc500;
     font-size: 6rem;
+    font: bold ;
+}
+
+.about-h2 {
+    color: #21a400;
+    font-size: 4rem;
     font: bold ;
 }
 
@@ -50,15 +56,22 @@ section.in-view {
 
 .nav-link {
     font-weight: bold;
-    color: #2de300 !important;
+    color: #2de300 ;
     padding: 0 5px;
     border-bottom: 2px solid transparent;
-    transition: border-color 0.5s ease;
+    transition: border-color color 0.5s ease;
     margin-right: 5px;
 }
 
 .nav-link:hover {
-    border-bottom: 2px solid #2de300;
+    color: #fdc500;
+    border-bottom: 2px solid #fdc500;
+    transform: translateY(-2px);
+}
+
+.nav-link:active {
+    color: #fdc500;
+    border-bottom: 2px solid #fdc500;
     transform: translateY(-2px);
 }
 
