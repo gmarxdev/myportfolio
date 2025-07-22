@@ -12,11 +12,23 @@ body {
 }
 
 section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 40, 60, 0.85)),
+            url('../assets/img/bg-tech.jpg') no-repeat center center/cover;
     min-height: 100vh;
     padding: 80px 20px;
     opacity: 0;
     transform: translateY(50px);
     transition: all 0.6s ease-in-out;
+}
+
+.about-h1 {
+    color: whitesmoke;
+    font-size: 6rem;
+    font: bold ;
+}
+
+.bg-icon {
+    background-color: #21a400;
 }
 
 section.in-view {
@@ -35,7 +47,10 @@ section.in-view {
 .nav-link {
     font-weight: bold;
     color: #2de300 !important;
-    transition: transform 0.1s ease;
+    padding: 0 5px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.5s ease;
+    margin-right: 5px;
 }
 
 .nav-link:hover {

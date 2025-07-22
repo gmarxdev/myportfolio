@@ -7,6 +7,12 @@ $('.nav-link').on('click', function (e) {
     scrollTop: $(target).offset().top
     }, 800, 'swing');
 });
+    
+$(document).ready(function () {
+    $('.navbar-collapse .nav-link').on('click', function () {
+        $('.navbar-collapse').collapse('hide');
+    })
+})
 
 // Animate sections when they come into view
 function animateOnScroll() {
