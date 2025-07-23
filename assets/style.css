@@ -64,8 +64,6 @@ body {
 
 .education-h1 {
     color: #2de300;
-    font-size: 4rem;
-    font: bold ;
     text-shadow: 2px 4px 6px #000000;
 }
 
@@ -299,7 +297,9 @@ section.in-view {
 /* RESPONSIVE */
 
 @media (max-width: 767px) {
-    h1 {
+
+    
+    .education-h1 {
         font-size: 1.8rem;
     }
 
@@ -308,7 +308,34 @@ section.in-view {
         font-size: 0.9rem;
 }
 
-section {
+.bi-github,
+.github,
+.bi-facebook,
+.facebook,
+.bi-instagram,
+.instagram {
+    font-size: 2rem;
+    padding: 0 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+
+.education-section {
+    padding: 60px 15px;
+}
+
+.projects-section {
+    padding: 60px 15px;
+}
+
+.achievements-section {
+    padding: 60px 15px;
+}
+
+.contact-section {
     padding: 60px 15px;
 }
 
