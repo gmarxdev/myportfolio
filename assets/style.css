@@ -42,10 +42,6 @@ section {
     box-shadow: 0 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-.bg-profile {
-    background-color: #0a1a3f;
-}
-
 section.in-view {
     opacity: 1;
     transform: translateY(0);
@@ -58,6 +54,12 @@ section.in-view {
 .bg-deepblue {
     background-color: #0a1a3f;
 }
+
+
+/* ----------------------------------------------- */
+
+
+/* NAVBAR */
 
 .nav-link {
     font-weight: bold;
@@ -74,6 +76,15 @@ section.in-view {
     transform: translateY(-2px);
 }
 
+.light-bottom-shadow {
+    box-shadow: 0 2px 6px rgba(5, 104, 153, 0.85);
+}
+
+
+/* ----------------------------------------------- */
+
+
+/* CARD */
 
 .card {
     background-color: #1c1c1e;
@@ -81,10 +92,22 @@ section.in-view {
     color: #fff;
 }
 
+
+/* ----------------------------------------------- */
+
+
+/* PROJECTS */
+
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
 }
+
+
+/* ----------------------------------------------- */
+
+
+/* RESPONSIVE */
 
 @media (max-width: 767px) {
     h1 {
