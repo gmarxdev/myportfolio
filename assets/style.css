@@ -326,49 +326,57 @@ section.in-view {
     .card-body,
     .carousel-caption {
         font-size: 2rem;
-}
+    }
 
-.bi-github,
-.github,
-.bi-facebook,
-.facebook,
-.bi-instagram,
-.instagram {
-    font-size: 2rem;
-    padding: 0 2rem;
-}
+    /* CONTACT SECTION */
+    label {
+        font-size: large;
+    }
 
-.btn {
-    margin-top: 3rem;
-    width: 95%;
-    padding: 0 2rem;
-    text-align: start;
-}
+    .bi-github,
+    .github,
+    .bi-facebook,
+    .facebook,
+    .bi-instagram,
+    .instagram {
+        font-size: 2rem;
+        padding: 0 2rem;
+    }
+
+    .btn {
+        margin-top: 3rem;
+        width: 95%;
+        padding: 0 2rem;
+        text-align: start;
+    }
 
 
-.p-about-mobile {
-    font-size: 2rem !important;
-    text-shadow: 2px 2px 4px #000000;
-}
+    .p-about-mobile {
+        font-size: 2rem !important;
+        text-shadow: 2px 2px 4px #000000;
+    }
 
 
-.education-section {
-    padding: 60px 15px;
-}
+    .education-section {
+        padding: 60px 15px;
+    }
 
-.projects-section {
-    padding: 60px 15px;
-}
+    .projects-section {
+        padding: 60px 15px;
+    }
 
-.achievements-section {
-    padding: 60px 15px;
-}
+    .achievements-section {
+        padding: 60px 15px;
+    }
 
-.contact-section {
-    padding: 60px 15px;
-}
+    .contact-section {
+        padding: 60px 15px;
+    }
 
-.navbar-brand {
+    .navbar-brand {
         font-size: 1.2rem;
     }
+
 }
+
+
