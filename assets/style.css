@@ -45,6 +45,21 @@ body {
     box-shadow: 0 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
+.bi-github,
+.github,
+.bi-facebook,
+.facebook,
+.bi-instagram,
+.instagram {
+    font-size: .9rem;
+    margin-right: 5px;
+}
+
+.btn {
+    width: 150px;
+    padding: .5rem 2rem;
+}
+
 
 
 
@@ -67,7 +82,7 @@ body {
     text-shadow: 2px 4px 6px #000000;
 }
 
-.about-h2 {
+.education-h2 {
     color: whitesmoke;
     font-size: 3rem;
     font: bold ;
@@ -113,22 +128,27 @@ section.in-view {
     transition: all 0.6s ease-in-out;
 }
 
-.education-h1 {
+.projects-h1 {
     color: #2de300;
     font-size: 6rem;
     font: bold ;
     text-shadow: 2px 4px 6px #000000;
 }
 
-.about-h2 {
+.projects-h2 {
     color: whitesmoke;
-    font-size: 3rem;
+    font-size: 5rem;
     font: bold ;
     text-shadow: 2px 4px 6px #000000;
 }
 
+.p-about {
+    font-size: 1.3rem !important;
+    text-shadow: 2px 2px 4px #000000;
+}
 
-.about-profile {
+
+.projects-profile {
     box-shadow: 0 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
@@ -166,14 +186,14 @@ section.in-view {
     transition: all 0.6s ease-in-out;
 }
 
-.education-h1 {
+.achievements-h1 {
     color: #2de300;
     font-size: 6rem;
     font: bold ;
     text-shadow: 2px 4px 6px #000000;
 }
 
-.about-h2 {
+.achievements-h2 {
     color: whitesmoke;
     font-size: 3rem;
     font: bold ;
@@ -181,7 +201,7 @@ section.in-view {
 }
 
 
-.about-profile {
+.achievements-profile {
     box-shadow: 0 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
@@ -219,7 +239,7 @@ section.in-view {
     transition: all 0.6s ease-in-out;
 }
 
-.education-h1 {
+.contact-h1 {
     color: #2de300;
     font-size: 6rem;
     font: bold ;
@@ -303,9 +323,9 @@ section.in-view {
         font-size: 1.8rem;
     }
 
-    .card-body p,
-    .carousel-caption p {
-        font-size: 0.9rem;
+    .card-body,
+    .carousel-caption {
+        font-size: 2rem;
 }
 
 .bi-github,
@@ -325,6 +345,11 @@ section.in-view {
     text-align: start;
 }
 
+
+.p-about-mobile {
+    font-size: 2rem !important;
+    text-shadow: 2px 2px 4px #000000;
+}
 
 
 .education-section {
