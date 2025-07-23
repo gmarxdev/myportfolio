@@ -5,13 +5,54 @@ html {
 
 body {
     font-family: "Rajdhani", sans-serif;
-    background-color: #000;
+    background-color: rgb(0, 40, 60);
     color: #e0e0e0;
     margin: 0;
     padding: 0;
 }
 
-section {
+
+/* --------------------------------------------- */
+
+/* ABOUT SECTION */
+
+.about-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 40, 60, 0.5)),
+            url('../assets/profile/bg.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    padding: 80px 0;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease-in-out;
+}
+
+.about-h1 {
+    color: whitesmoke;
+    font-size: 6rem;
+    font: bold ;
+    text-shadow: 2px 4px 6px #000000;
+}
+
+.about-h2 {
+    color: whitesmoke;
+    font-size: 3rem;
+    font: bold ;
+    text-shadow: 2px 4px 6px #000000;
+}
+
+
+.about-profile {
+    box-shadow: 0 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+/* --------------------------------------------- */
+
+/* EDUCATION SECTION */
+
+.education-section {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 40, 60, 0.85)),
             url('') no-repeat center center/cover;
     min-height: 100vh;
@@ -21,25 +62,170 @@ section {
     transition: all 0.6s ease-in-out;
 }
 
-.about-h1 {
-    color: #c69b00;
+.education-h1 {
+    color: #2de300;
     font-size: 6rem;
     font: bold ;
+    text-shadow: 2px 4px 6px #000000;
 }
 
 .about-h2 {
-    color: #21a400;
-    font-size: 5rem;
+    color: whitesmoke;
+    font-size: 3rem;
     font: bold ;
-    text-shadow: 2px 4px 6px #0e4300;
+    text-shadow: 2px 4px 6px #000000;
 }
 
-.bg-icon {
-    background-color: #21a400;
-}
 
 .about-profile {
     box-shadow: 0 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+
+section.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+    .bg-violet {
+    background-color: #300053;
+}
+
+.bg-deepblue {
+    background-color: #0a1a3f;
+}
+
+
+
+
+
+
+/* --------------------------------------------- */
+
+/* EDUCATION SECTION */
+
+.projects-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 40, 60, 0.85)),
+            url('') no-repeat center center/cover;
+    min-height: 100vh;
+    padding: 80px 0;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease-in-out;
+}
+
+.education-h1 {
+    color: #2de300;
+    font-size: 6rem;
+    font: bold ;
+    text-shadow: 2px 4px 6px #000000;
+}
+
+.about-h2 {
+    color: whitesmoke;
+    font-size: 3rem;
+    font: bold ;
+    text-shadow: 2px 4px 6px #000000;
+}
+
+
+.about-profile {
+    box-shadow: 0 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+
+section.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+    .bg-violet {
+    background-color: #300053;
+}
+
+.bg-deepblue {
+    background-color: #0a1a3f;
+}
+
+
+
+
+
+
+/* --------------------------------------------- */
+
+/* EDUCATION SECTION */
+
+.achievements-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 40, 60, 0.85)),
+            url('') no-repeat center center/cover;
+    min-height: 100vh;
+    padding: 80px 0;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease-in-out;
+}
+
+.education-h1 {
+    color: #2de300;
+    font-size: 6rem;
+    font: bold ;
+    text-shadow: 2px 4px 6px #000000;
+}
+
+.about-h2 {
+    color: whitesmoke;
+    font-size: 3rem;
+    font: bold ;
+    text-shadow: 2px 4px 6px #000000;
+}
+
+
+.about-profile {
+    box-shadow: 0 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+
+section.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+    .bg-violet {
+    background-color: #300053;
+}
+
+.bg-deepblue {
+    background-color: #0a1a3f;
+}
+
+
+
+
+
+
+/* --------------------------------------------- */
+
+/* EDUCATION SECTION */
+
+.contact-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 40, 60, 0.85)),
+            url('') no-repeat center center/cover;
+    min-height: 100vh;
+    padding: 80px 0;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease-in-out;
+}
+
+.education-h1 {
+    color: #2de300;
+    font-size: 6rem;
+    font: bold ;
+    text-shadow: 2px 4px 6px #000000;
 }
 
 section.in-view {
@@ -56,6 +242,10 @@ section.in-view {
 }
 
 
+
+
+
+
 /* ----------------------------------------------- */
 
 
@@ -64,33 +254,28 @@ section.in-view {
 .nav-link {
     font-weight: bold;
     color: #2de300 ;
-    padding: 0 5px;
     border-bottom: 2px solid transparent;
-    transition: border-color color 0.5s ease;
+    transition: font-size 0.5s ease, padding 0.5s ease, color 0.5s ease;
     margin-right: 5px;
 }
 
 .nav-link:hover {
     color: #fdc500;
-    border-bottom: 2px solid #fdc500;
-    transform: translateY(-2px);
+    /* border-bottom: 2px solid #fdc500; */
+    font-size: 18px;
+    /* transform: translateY(-2px); */
 }
 
 .light-bottom-shadow {
     box-shadow: 0 2px 6px rgba(5, 104, 153, 0.85);
 }
 
+.bg-icon {
+    background-color: #21a400;
+}
+
 
 /* ----------------------------------------------- */
-
-
-/* CARD */
-
-.card {
-    background-color: #1c1c1e;
-    border: none;
-    color: #fff;
-}
 
 
 /* ----------------------------------------------- */
