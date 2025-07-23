@@ -5,7 +5,7 @@ $('.nav-link').on('click', function (e) {
     const target = $(this).attr('href');
     $('html, body').stop().animate({
     scrollTop: $(target).offset().top
-    }, 800, 'swing');
+    }, 200, 'swing');
 });
     
 $(document).ready(function () {

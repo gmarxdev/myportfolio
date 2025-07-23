@@ -254,16 +254,20 @@ section.in-view {
 .nav-link {
     font-weight: bold;
     color: #2de300 ;
+    padding: 0;
     border-bottom: 2px solid transparent;
-    transition: font-size 0.5s ease, padding 0.5s ease, color 0.5s ease;
+    transition: border-bottom 0.5s ease, color 0.5s ease, transform 0.5s ease;
     margin-right: 5px;
 }
 
 .nav-link:hover {
     color: #fdc500;
-    /* border-bottom: 2px solid #fdc500; */
-    font-size: 18px;
-    /* transform: translateY(-2px); */
+    border-bottom: 2px solid #fdc500;
+    transform: translateY(-2px);
+}
+
+.nav-link:after {
+    color: #fdc500;
 }
 
 .light-bottom-shadow {
