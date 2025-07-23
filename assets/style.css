@@ -316,9 +316,13 @@ section.in-view {
 .instagram {
     font-size: 2rem;
     padding: 0 2rem;
-    align-items: center;
-    text-align: center;
-    margin-top: 2rem;
+}
+
+.btn {
+    margin-top: 3rem;
+    width: 95%;
+    padding: 0 2rem;
+    text-align: start;
 }
 
 
