@@ -364,6 +364,14 @@ section.in-view {
 
     /* Projects */
 
+    .carousel-inner {
+        height: 250px; /* You can adjust this height */
+    }
+
+    .carousel-item img {
+        height: 250px; /* Match the height */
+    }
+
     .project-img {
         max-height: 400px;
         object-position: center;
