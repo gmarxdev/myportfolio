@@ -355,6 +355,52 @@ section.in-view {
 
 @media (max-width: 767px) {
 
+    /* Projects */
+
+    #projects .carousel-inner {
+    height: auto;
+    }
+
+    #projects img {
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    #projects .carousel-caption {
+        font-size: 14px;
+        padding-bottom: 1rem;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-size: 50% 50%;
+    }
+
+    .projects-section {
+        padding: 40px 15px;
+    }
+
+    .project-img {
+        max-height: 250px;
+    }
+
+    .carousel-caption {
+        font-size: 0.85rem;
+        padding-bottom: 10px;
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 5px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.8rem;
+    }
+
     
     .education-h1 {
         font-size: 1.8rem;
@@ -365,12 +411,6 @@ section.in-view {
         font-size: 2rem;
     }
 
-
-    /* PROJECTS */
-    .carousel, 
-    .carousel-inner {
-        height: 60vh;
-    }
 
 
     /* CONTACT SECTION */
