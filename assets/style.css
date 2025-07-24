@@ -11,6 +11,34 @@ body {
     padding: 0;
 }
 
+body.landing-body {
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    overflow: hidden;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+.delay-1 {
+    animation-delay: 0.5s;
+}
+.delay-2 {
+    animation-delay: 1s;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
 
 /* --------------------------------------------- */
 

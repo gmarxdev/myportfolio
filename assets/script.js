@@ -34,3 +34,13 @@ $(document).ready(function () {
     $(window).on('scroll resize', animateOnScroll);
     animateOnScroll(); // Initial call
 });
+
+
+$(document).ready(function () {
+    $('#enterBtn').on('click', function () {
+            // Optional: Fade out before redirect
+            $('body').fadeOut(300, function () {
+            window.location.href = "portfolio.html";
+        });
+    });
+});
