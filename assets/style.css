@@ -358,7 +358,7 @@ section.in-view {
     /* Projects */
 
     #projects .carousel-inner {
-    height: auto;
+        height: auto;
     }
 
     #projects img {
@@ -379,11 +379,12 @@ section.in-view {
     }
 
     .projects-section {
-        padding: 40px 15px;
+        padding: 60px 15px;
     }
 
+    /* Make carousel images taller on mobile */
     .project-img {
-        max-height: 250px;
+        max-height: 400px; /* Previously 250px */
     }
 
     .carousel-caption {
@@ -401,7 +402,6 @@ section.in-view {
         font-size: 0.8rem;
     }
 
-    
     .education-h1 {
         font-size: 1.8rem;
     }
@@ -410,8 +410,6 @@ section.in-view {
     .carousel-caption {
         font-size: 2rem;
     }
-
-
 
     /* CONTACT SECTION */
     label {
@@ -435,12 +433,10 @@ section.in-view {
         text-align: start;
     }
 
-
     .p-about-mobile {
         font-size: 2rem !important;
         text-shadow: 2px 2px 4px #000000;
     }
-
 
     .education-section {
         padding: 60px 15px;
@@ -461,7 +457,4 @@ section.in-view {
     .navbar-brand {
         font-size: 1.2rem;
     }
-
 }
-
-
