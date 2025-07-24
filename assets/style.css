@@ -341,6 +341,13 @@ section.in-view {
 
 /* ----------------------------------------------- */
 
+/* Make carousel take full width on mobile */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 /* General carousel image styling */
 .project-img {
     width: 100%;
@@ -356,6 +363,11 @@ section.in-view {
 @media (max-width: 767px) {
 
     /* Projects */
+
+    .project-img {
+        max-height: 400px;
+        object-position: center;
+    }
 
     #projects .carousel-inner {
         height: auto;
