@@ -341,6 +341,15 @@ section.in-view {
 
 /* ----------------------------------------------- */
 
+/* General carousel image styling */
+.project-img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 
 /* RESPONSIVE */
 
@@ -355,6 +364,14 @@ section.in-view {
     .carousel-caption {
         font-size: 2rem;
     }
+
+
+    /* PROJECTS */
+    .carousel, 
+    .carousel-inner {
+        height: 60vh;
+    }
+
 
     /* CONTACT SECTION */
     label {
